@@ -502,7 +502,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, .5);
     box-shadow: none;
 }
 
@@ -1040,3 +1040,13 @@ h4 {
 .citation{
     font-style: italic;
 }
+
+#bloc_7{
+    width: 100%;
+    text-align: center;
+    
+}
+.adresse{
+    padding-top: 40px;
+} 
+ 
