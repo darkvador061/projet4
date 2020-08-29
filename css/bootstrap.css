@@ -4222,10 +4222,7 @@ fieldset[disabled] .btn-link:hover {
     border-radius: 3px
 }
 
-.btn-block {
-    display: block;
-    width: 100%
-}
+
 
 .btn-block+.btn-block {
     margin-top: 5px

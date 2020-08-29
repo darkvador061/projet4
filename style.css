@@ -11,6 +11,8 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
+    font-size: large;
+    
 }
 
 a:hover {
@@ -806,10 +808,10 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
+/*.bg-dots-bg {
     background-image: url("img/dots-bg.png");
 }
-
+*/
 .bg-lines-h2-bg {
     background-image: url("img/lines-h2-bg.png");
 }
@@ -1049,4 +1051,7 @@ h4 {
 .adresse{
     padding-top: 40px;
 } 
+.adresse a{
+    font-weight: bold;
+}
  
