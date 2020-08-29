@@ -1069,10 +1069,17 @@ h4 {
 .adresse a{
     font-weight: bold;
 }
-
-.map-frame{
-   width: 100%;
+.map{
+    padding-bottom: 50px;
 }
+.map-frame{
+   width: 50%;
+   height: 200px;
+   display: flex;
+   margin: auto;
+   border: double; 
+}   
 h2{
     text-align: center;
 } 
+
