@@ -36,8 +36,8 @@
 	<div class="container bloc-sm">
 		<nav class="navbar row">
 			<div class="navbar-header">
-				<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
-					alt="logo chouette agence" height="40" title="Retour à l'accueil" /></a>
+				<img src="img/la-chouette-agence.png"
+					alt="logo chouette agence" height="40" />
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1" aria-label="Bouton barre navigation">
 				<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span
 					class="icon-bar"></span><span class="icon-bar"></span>
@@ -86,12 +86,12 @@
 				 
 					<div class="form-group">
 						<label for="name">Nom</label>
-						<input type="text" id="name" name="user_name" />						
+						<input type="text" id="name" placeholder=" nom et prénom" required />						
 						
 					</div>
 					<div class="form-group">
 						<label for="mail">Adresse e-mail </label>					
-						<input type="email" id="mail" name="user_mail"  />
+						<input type="email" id="mail"  placeholder=" Adresse e-mail" required   />
 					</div>
 					<div class="form-group">
 						<label for="reponses">Comment nous avez-vous connu ?</label>
@@ -107,7 +107,7 @@
 					<div class="form-group">
 						<label for="message">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 						</label>
-					    <textarea id="message" class="form-control" rows="4" cols="50" name="message"></textarea>
+					    <textarea id="message" class="form-control" rows="4" cols="50"  placeholder="descriptif de votre projet" required ></textarea>
 					</div> 
 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit" >
