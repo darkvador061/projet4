@@ -1042,11 +1042,19 @@ h4 {
 .citation{
     font-style: italic;
 }
-
+.custom-bg {
+    background-color: rgba(255, 255, 255, .6);
+    width: 70%;
+    margin: auto;
+    padding: 30px;
+    border-radius: 30px
+}
+#bloc-7 h2{
+    text-decoration: underline;
+}
 #bloc_7{
     width: 100%;
-    text-align: center;
-    
+    text-align: center;  
 }
 .adresse{
     padding-top: 40px;
@@ -1054,4 +1062,11 @@ h4 {
 .adresse a{
     font-weight: bold;
 }
- 
+
+.map-frame{
+   width: 100%;
+}
+h2{
+    text-align: center;
+} 
+
