@@ -1073,11 +1073,11 @@ h4 {
     padding-bottom: 50px;
 }
 .map-frame{
-   width: 50%;
-   height: 200px;
+   width:50%;
+   height:200px;
    display: flex;
    margin: auto;
-   border: double; 
+   border:0; 
 }   
 h2{
     text-align: center;
